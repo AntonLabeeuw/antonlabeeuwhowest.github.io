@@ -13,7 +13,7 @@ using System.Data.SqlClient;
 
 namespace project_API
 {
-    public class BreweryFunctions
+    public class BreweriesFunctions
     {
         [FunctionName("GetBreweries")]
         public async Task<IActionResult> GetBreweries(
